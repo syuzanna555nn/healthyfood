@@ -23,10 +23,6 @@
         ],
         "pathGroups": [
           {
-            "pattern": "src/utils/polyfills",
-            "group": "builtin"
-          },
-          {
             "pattern": "src/**",
             "group": "internal"
           }
@@ -45,12 +41,6 @@
     ]
   },
   "overrides": [
-    {
-      "files": "actions/**",
-      "rules": {
-        "@typescript-eslint/no-explicit-any": "error"
-      }
-    },
     {
       "files": "*.{jsx,tsx}",
       "rules": {

@@ -1,8 +1,11 @@
 import React from "react";
 
-export const Dashboard:React.FC = () => {
-    return <>
-        <div><p>Dashboard</p></div>
+export const Dashboard: React.FC = () => {
+  return (
+    <>
+      <div>
+        <p>Dashboard</p>
+      </div>
     </>
-}
-
+  );
+};

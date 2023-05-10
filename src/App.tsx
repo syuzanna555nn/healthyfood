@@ -1,14 +1,14 @@
-import React from 'react';
-import { MainLayout} from "./layouts/MainLayout";
-import {BrowserRouter} from "react-router-dom";
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
 
+import { MainLayout } from "./layouts/MainLayout";
 
 function App() {
   return (
     <div className="App">
-        <BrowserRouter>
-            <MainLayout />
-        </BrowserRouter>
+      <BrowserRouter>
+        <MainLayout />
+      </BrowserRouter>
     </div>
   );
 }
